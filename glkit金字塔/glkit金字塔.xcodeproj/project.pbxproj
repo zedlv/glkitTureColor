@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20E1806D24D85E7D00166D32 /* iu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20E1806C24D85E7D00166D32 /* iu.jpg */; };
+		20F8C34724D65E0A00FE806B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F8C34624D65E0A00FE806B /* AppDelegate.m */; };
+		20F8C34D24D65E0A00FE806B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F8C34C24D65E0A00FE806B /* ViewController.m */; };
+		20F8C35024D65E0A00FE806B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F8C34E24D65E0A00FE806B /* Main.storyboard */; };
+		20F8C35224D65E0E00FE806B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F8C35124D65E0E00FE806B /* Assets.xcassets */; };
+		20F8C35524D65E0E00FE806B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F8C35324D65E0E00FE806B /* LaunchScreen.storyboard */; };
+		20F8C35824D65E0E00FE806B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F8C35724D65E0E00FE806B /* main.m */; };
+		20F8C36224D65E0E00FE806B /* glkit___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F8C36124D65E0E00FE806B /* glkit___Tests.m */; };
+		20F8C36D24D65E0E00FE806B /* glkit___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F8C36C24D65E0E00FE806B /* glkit___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20F8C35E24D65E0E00FE806B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20F8C33A24D65E0A00FE806B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20F8C34124D65E0A00FE806B;
+			remoteInfo = "glkit金字塔";
+		};
+		20F8C36924D65E0E00FE806B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20F8C33A24D65E0A00FE806B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20F8C34124D65E0A00FE806B;
+			remoteInfo = "glkit金字塔";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20E1806C24D85E7D00166D32 /* iu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iu.jpg; sourceTree = "<group>"; };
+		20F8C34224D65E0A00FE806B /* glkit金字塔.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "glkit金字塔.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F8C34524D65E0A00FE806B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20F8C34624D65E0A00FE806B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20F8C34B24D65E0A00FE806B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20F8C34C24D65E0A00FE806B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20F8C34F24D65E0A00FE806B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20F8C35124D65E0E00FE806B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20F8C35424D65E0E00FE806B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20F8C35624D65E0E00FE806B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F8C35724D65E0E00FE806B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20F8C35D24D65E0E00FE806B /* glkit金字塔Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "glkit金字塔Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F8C36124D65E0E00FE806B /* glkit___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "glkit___Tests.m"; sourceTree = "<group>"; };
+		20F8C36324D65E0E00FE806B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F8C36824D65E0E00FE806B /* glkit金字塔UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "glkit金字塔UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F8C36C24D65E0E00FE806B /* glkit___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "glkit___UITests.m"; sourceTree = "<group>"; };
+		20F8C36E24D65E0E00FE806B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20F8C33F24D65E0A00FE806B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F8C35A24D65E0E00FE806B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F8C36524D65E0E00FE806B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20F8C33924D65E0A00FE806B = {
+			isa = PBXGroup;
+			children = (
+				20F8C34424D65E0A00FE806B /* glkit金字塔 */,
+				20F8C36024D65E0E00FE806B /* glkit金字塔Tests */,
+				20F8C36B24D65E0E00FE806B /* glkit金字塔UITests */,
+				20F8C34324D65E0A00FE806B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20F8C34324D65E0A00FE806B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20F8C34224D65E0A00FE806B /* glkit金字塔.app */,
+				20F8C35D24D65E0E00FE806B /* glkit金字塔Tests.xctest */,
+				20F8C36824D65E0E00FE806B /* glkit金字塔UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20F8C34424D65E0A00FE806B /* glkit金字塔 */ = {
+			isa = PBXGroup;
+			children = (
+				20F8C34524D65E0A00FE806B /* AppDelegate.h */,
+				20F8C34624D65E0A00FE806B /* AppDelegate.m */,
+				20F8C34B24D65E0A00FE806B /* ViewController.h */,
+				20F8C34C24D65E0A00FE806B /* ViewController.m */,
+				20F8C34E24D65E0A00FE806B /* Main.storyboard */,
+				20F8C35124D65E0E00FE806B /* Assets.xcassets */,
+				20F8C35324D65E0E00FE806B /* LaunchScreen.storyboard */,
+				20E1806C24D85E7D00166D32 /* iu.jpg */,
+				20F8C35624D65E0E00FE806B /* Info.plist */,
+				20F8C35724D65E0E00FE806B /* main.m */,
+			);
+			path = "glkit金字塔";
+			sourceTree = "<group>";
+		};
+		20F8C36024D65E0E00FE806B /* glkit金字塔Tests */ = {
+			isa = PBXGroup;
+			children = (
+				20F8C36124D65E0E00FE806B /* glkit___Tests.m */,
+				20F8C36324D65E0E00FE806B /* Info.plist */,
+			);
+			path = "glkit金字塔Tests";
+			sourceTree = "<group>";
+		};
+		20F8C36B24D65E0E00FE806B /* glkit金字塔UITests */ = {
+			isa = PBXGroup;
+			children = (
+				20F8C36C24D65E0E00FE806B /* glkit___UITests.m */,
+				20F8C36E24D65E0E00FE806B /* Info.plist */,
+			);
+			path = "glkit金字塔UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20F8C34124D65E0A00FE806B /* glkit金字塔 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F8C37124D65E0E00FE806B /* Build configuration list for PBXNativeTarget "glkit金字塔" */;
+			buildPhases = (
+				20F8C33E24D65E0A00FE806B /* Sources */,
+				20F8C33F24D65E0A00FE806B /* Frameworks */,
+				20F8C34024D65E0A00FE806B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "glkit金字塔";
+			productName = "glkit金字塔";
+			productReference = 20F8C34224D65E0A00FE806B /* glkit金字塔.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20F8C35C24D65E0E00FE806B /* glkit金字塔Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F8C37424D65E0E00FE806B /* Build configuration list for PBXNativeTarget "glkit金字塔Tests" */;
+			buildPhases = (
+				20F8C35924D65E0E00FE806B /* Sources */,
+				20F8C35A24D65E0E00FE806B /* Frameworks */,
+				20F8C35B24D65E0E00FE806B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20F8C35F24D65E0E00FE806B /* PBXTargetDependency */,
+			);
+			name = "glkit金字塔Tests";
+			productName = "glkit金字塔Tests";
+			productReference = 20F8C35D24D65E0E00FE806B /* glkit金字塔Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20F8C36724D65E0E00FE806B /* glkit金字塔UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F8C37724D65E0E00FE806B /* Build configuration list for PBXNativeTarget "glkit金字塔UITests" */;
+			buildPhases = (
+				20F8C36424D65E0E00FE806B /* Sources */,
+				20F8C36524D65E0E00FE806B /* Frameworks */,
+				20F8C36624D65E0E00FE806B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20F8C36A24D65E0E00FE806B /* PBXTargetDependency */,
+			);
+			name = "glkit金字塔UITests";
+			productName = "glkit金字塔UITests";
+			productReference = 20F8C36824D65E0E00FE806B /* glkit金字塔UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20F8C33A24D65E0A00FE806B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "yazhou lv";
+				TargetAttributes = {
+					20F8C34124D65E0A00FE806B = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					20F8C35C24D65E0E00FE806B = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 20F8C34124D65E0A00FE806B;
+					};
+					20F8C36724D65E0E00FE806B = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 20F8C34124D65E0A00FE806B;
+					};
+				};
+			};
+			buildConfigurationList = 20F8C33D24D65E0A00FE806B /* Build configuration list for PBXProject "glkit金字塔" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20F8C33924D65E0A00FE806B;
+			productRefGroup = 20F8C34324D65E0A00FE806B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20F8C34124D65E0A00FE806B /* glkit金字塔 */,
+				20F8C35C24D65E0E00FE806B /* glkit金字塔Tests */,
+				20F8C36724D65E0E00FE806B /* glkit金字塔UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20F8C34024D65E0A00FE806B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F8C35524D65E0E00FE806B /* LaunchScreen.storyboard in Resources */,
+				20F8C35224D65E0E00FE806B /* Assets.xcassets in Resources */,
+				20F8C35024D65E0A00FE806B /* Main.storyboard in Resources */,
+				20E1806D24D85E7D00166D32 /* iu.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F8C35B24D65E0E00FE806B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F8C36624D65E0E00FE806B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20F8C33E24D65E0A00FE806B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F8C34D24D65E0A00FE806B /* ViewController.m in Sources */,
+				20F8C34724D65E0A00FE806B /* AppDelegate.m in Sources */,
+				20F8C35824D65E0E00FE806B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F8C35924D65E0E00FE806B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F8C36224D65E0E00FE806B /* glkit___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F8C36424D65E0E00FE806B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F8C36D24D65E0E00FE806B /* glkit___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20F8C35F24D65E0E00FE806B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20F8C34124D65E0A00FE806B /* glkit金字塔 */;
+			targetProxy = 20F8C35E24D65E0E00FE806B /* PBXContainerItemProxy */;
+		};
+		20F8C36A24D65E0E00FE806B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20F8C34124D65E0A00FE806B /* glkit金字塔 */;
+			targetProxy = 20F8C36924D65E0E00FE806B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20F8C34E24D65E0A00FE806B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20F8C34F24D65E0A00FE806B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20F8C35324D65E0E00FE806B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20F8C35424D65E0E00FE806B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20F8C36F24D65E0E00FE806B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20F8C37024D65E0E00FE806B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20F8C37224D65E0E00FE806B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "glkit金字塔/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.answer.lv.glkit---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20F8C37324D65E0E00FE806B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "glkit金字塔/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.answer.lv.glkit---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20F8C37524D65E0E00FE806B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "glkit金字塔Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.answer.lv.glkit---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/glkit金字塔.app/glkit金字塔";
+			};
+			name = Debug;
+		};
+		20F8C37624D65E0E00FE806B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "glkit金字塔Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.answer.lv.glkit---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/glkit金字塔.app/glkit金字塔";
+			};
+			name = Release;
+		};
+		20F8C37824D65E0E00FE806B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "glkit金字塔UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.answer.lv.glkit---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "glkit金字塔";
+			};
+			name = Debug;
+		};
+		20F8C37924D65E0E00FE806B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "glkit金字塔UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.answer.lv.glkit---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "glkit金字塔";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20F8C33D24D65E0A00FE806B /* Build configuration list for PBXProject "glkit金字塔" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F8C36F24D65E0E00FE806B /* Debug */,
+				20F8C37024D65E0E00FE806B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20F8C37124D65E0E00FE806B /* Build configuration list for PBXNativeTarget "glkit金字塔" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F8C37224D65E0E00FE806B /* Debug */,
+				20F8C37324D65E0E00FE806B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20F8C37424D65E0E00FE806B /* Build configuration list for PBXNativeTarget "glkit金字塔Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F8C37524D65E0E00FE806B /* Debug */,
+				20F8C37624D65E0E00FE806B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20F8C37724D65E0E00FE806B /* Build configuration list for PBXNativeTarget "glkit金字塔UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F8C37824D65E0E00FE806B /* Debug */,
+				20F8C37924D65E0E00FE806B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20F8C33A24D65E0A00FE806B /* Project object */;
+}
